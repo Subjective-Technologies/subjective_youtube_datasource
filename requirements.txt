@@ -1,0 +1,27 @@
+# BrainBoost core dependencies
+-e file:///brainboost/packages/subjective_abstract_data_source_package
+-e file:///brainboost/packages/brainboost_data_source_logger_package
+-e file:///brainboost/packages/brainboost_configuration_package
+
+# YouTube data source dependencies
+yt-dlp>=2023.7.6
+openai-whisper>=20231117
+pydub>=0.25.1
+
+# Audio processing dependencies
+ffmpeg-python>=0.2.0
+
+# Progress bar and UI (optional but used in batch processing)
+alive-progress>=3.1.4
+tqdm>=4.65.0
+
+# Computer vision dependencies (for body language analysis)
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# ML and NLP dependencies
+transformers>=4.30.0
+torch>=2.0.0
+
+# Additional utility dependencies
+rich>=13.4.2
