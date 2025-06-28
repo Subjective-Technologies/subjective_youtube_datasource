@@ -44,8 +44,8 @@ A comprehensive YouTube content processing system that provides multiple ways to
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/Subjective-Technologies/youtube_datasource.git
-cd youtube_datasource
+git clone https://github.com/Subjective-Technologies/subjective_youtube_datasource.git
+cd subjective_youtube_datasource
 ```
 
 2. **Create and activate virtual environment:**
@@ -184,7 +184,7 @@ python3 convert_live_to_video_urls.py youtube_urls.txt
 ## 📁 Project Structure
 
 ```
-youtube_datasource/
+subjective_youtube_datasource/
 ├── SubjectiveYouTubeDataSource.py          # Main unified class interface
 ├── update_context_txt.py                   # Context file management
 ├── example_connection_form_usage.py        # Usage examples
