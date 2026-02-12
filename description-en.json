@@ -1,4 +1,5 @@
 {
+  "description": "Ingests YouTube videos, extracts metadata/media signals, runs transcription pipelines, and emits structured context artifacts for downstream use.",
   "domainCategory": "Media & Content",
   "subjectiveTechnologyElement": "DataSources",
   "publisher": "BrainBoost Ltd.",
@@ -9,7 +10,7 @@
     {
       "type": "splitList",
       "title": "You Tube",
-      "text": "YouTube Data Source implementation that processes YouTube videos for transcription and analysis.",
+      "text": "Ingests YouTube videos, extracts metadata/media signals, runs transcription pipelines, and emits structured context artifacts for downstream use.",
       "image": {
         "src": "/subjective_youtube_datasource/icon.svg",
         "alt": "You Tube icon"
